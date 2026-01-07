@@ -3,7 +3,7 @@ ECWolf, as a Flatpak. This setup allowed me to play ECWolf on Bazzite.
 
 ## How To Use This Repo
 
-### Install prerequisites (flatpak-builder, etc.)
+### Install prerequisites (Flatpak builder, etc.)
 
 1. Install Flathub repository (if not already installed)
 ```sh
