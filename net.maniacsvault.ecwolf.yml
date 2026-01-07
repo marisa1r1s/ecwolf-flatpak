@@ -17,7 +17,13 @@ modules:
     build-commands:
       - install -Dm755 ecwolf /app/bin/ecwolf
       - install -Dm644 ecwolf.pk3 /app/share/net.maniacsvault.ecwolf/ecwolf.pk3
+      - install -Dm644 net.maniacsvault.ecwolf.desktop /app/share/applications/net.maniacsvault.ecwolf.desktop
+      - install -Dm644 net.maniacsvault.ecwolf.png /app/share/icons/hicolor/256x256/apps/net.maniacsvault.ecwolf.png
     sources:
       - type: git
         url: https://github.com/ECWolfEngine/ECWolf
         tag: 1.4.2
+      - type: file
+        path: net.maniacsvault.ecwolf.desktop
+      - type: file
+        path: net.maniacsvault.ecwolf.png
