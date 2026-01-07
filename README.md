@@ -31,3 +31,15 @@ flatpak run --command=flathub-build org.flatpak.Builder --install net.maniacsvau
 ```sh
 flatpak run net.maniacsvault.ecwolf
 ```
+
+## Credits
+
+ECWolf SVG icon sourced from:
+```
+https://github.com/Jaffacakelover/emulator-icons-svg/
+```
+
+ECWolf 256x256 PNG icon sourced from:
+```
+https://www.steamgriddb.com/icon/23050
+```
