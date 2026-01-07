@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ECWolf
+Exec=ecwolf
+Icon=net.maniacsvault.ECWolf
+Type=Application
+Categories=Games;
+StartupNotify=true
