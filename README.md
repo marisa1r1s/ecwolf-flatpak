@@ -25,11 +25,11 @@ flatpak run --command=flathub-build org.flatpak.Builder --install net.maniacsvau
 
 1. Put your data files (e.g. Wolf3D *.WL6 files, Spear of Destiny *.SOD files, etc.) in the following directory:
 ```
-~/.var/app/net.maniacsvault.ECWolf/data/
+~/.var/app/net.maniacsvault.ECWolf/data/ecwolf/
 ```
 2. Run the ecwolf Flatpak:
 ```sh
-flatpak run net.maniacsvault.ecwolf
+flatpak run net.maniacsvault.ECWolf
 ```
 
 ## Credits
