@@ -18,14 +18,14 @@ flatpak install flathub org.flatpak.Builder
 
 1. Run this command to build the Flatpak
 ```sh
-flatpak run --command=flathub-build org.flatpak.Builder --install net.maniacsvault.ecwolf.yml
+flatpak run --command=flathub-build org.flatpak.Builder --install net.maniacsvault.ECWolf.yml
 ```
 
 ### Set-up and run!
 
 1. Put your data files (e.g. Wolf3D *.WL6 files, Spear of Destiny *.SOD files, etc.) in the following directory:
 ```
-~/.var/app/net.maniacsvault.ecwolf/data/
+~/.var/app/net.maniacsvault.ECWolf/data/
 ```
 2. Run the ecwolf Flatpak:
 ```sh
