@@ -1,0 +1,23 @@
+id: net.maniacsvault.ecwolf
+runtime: org.freedesktop.Platform
+runtime-version: '25.08'
+sdk: org.freedesktop.Sdk
+command: ecwolf
+finish-args:
+  - "--share=ipc"
+  - "--socket=x11"
+  - "--socket=wayland"
+  - "--device=dri"
+  - "--socket=pulseaudio"
+modules:
+  - name: ecwolf
+    buildsystem: cmake
+    config-opts:
+      - "-DCMAKE_INSTALL_PREFIX=/app"
+    build-commands:
+      - install -Dm755 ecwolf /app/bin/ecwolf
+      - install -Dm644 ecwolf.pk3 /app/share/net.maniacsvault.ecwolf/ecwolf.pk3
+    sources:
+      - type: git
+        url: https://github.com/ECWolfEngine/ECWolf
+        tag: 1.4.2
